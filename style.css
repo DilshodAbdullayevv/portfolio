@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Nnito",
+    sans-serif;
+}
+
+nav{
+    height: 70px;
+    background-color: #14213d;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+
+.fa-graduation-cap{
+    color: gold;
+    font-size: 30px
+}
+
+.ism{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.menu{
+    color: #fff;
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.link{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    gap: 5px;
+}
+
+.icon{
+    font: 15px;
+    color: gold;
+}
+
+.link:hover{
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.uchinchi {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 90px;
+    background-color: aliceblue;
+    gap: 20px;
+}
+
+.uchinchi div {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+}
+
+.uchinchi div i {
+    color: aqua;
+    font-size: 30px;
+}
+
+.uchinchi div h3 {
+    color: #14213d;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.uchinchi ol {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 30px;
+}
+
+.uchinchi ol li {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    border-left: 5px solid #2a9d8f;
+}
+
+.uchinchi ol li i {
+    color: aqua;
+    font-size: 20px;
+}
+
+.uchinchi ol li h3 {
+    color: #14213d;
+}
+
+.uchinchi ol li p {
+    color: #14213d;
+}
+
+.aloqa-section{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff;
+    padding: 50px 90px;
+}
+
+.aloqa-section div{
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.aloqa-section div i{
+    color: aqua;
+    font-size: 25px;    
+}
+
+.aloqa-section div h3{
+    color: #14213d;
+    font-size: 25px;
+    font-weight: 800px;
+}
+
+.aloqa-section p{
+    color: #14213d;
+}
+
+.aloqa-section ol{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;    
+}
+
+.aloqa-section ol li{
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+}
+
+.aloqa-section ol li a{
+    text-decoration: none;
+    color: #14213d;
+}
+
+.aloqa-section ol li i{
+    color: aqua;
+}
+
+
+footer {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: #14213d;
+    align-items: center;
+}
+
+footer p{
+    color: white;
+    font-weight: 500px;
+}
